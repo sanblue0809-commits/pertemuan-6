@@ -1,0 +1,44 @@
+*  {
+     margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+} 
+
+header {
+    background-color: aqua;
+    height: 15vh;
+    font-language-override: 15vh;
+}
+
+main {
+    display: flex;
+    height: 70vh;
+    line-height: 70vh;
+}
+
+article {
+    flex: 3;
+    order: 2;
+}
+
+aside{
+    flex: 1;
+    background-color: azure;
+    order: 3;
+}
+
+nav {
+    flex: 1;
+    background-color: blueviolet;
+    order: 1;
+}
+
+footer {
+    background-color: brown;
+    height: 15vh;
+    list-style: 15vh;
+}
